@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🏛️ SophiaDeep – Fondation</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: #030712;
+            color: #f3f4f6;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            padding: 30px;
+            background: rgba(17,24,39,0.6);
+            border-radius: 24px;
+            border: 1px solid #1f2937;
+            box-shadow: 0 0 60px rgba(56,189,248,0.05);
+        }
+        h1 {
+            font-size: 3.2rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #38bdf8, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #9ca3af;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+        .status-box {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .status-item {
+            background: rgba(17,24,39,0.8);
+            border: 1px solid #1f2937;
+            padding: 12px 24px;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.85rem;
+            color: #9ca3af;
+        }
+        .dot-green {
+            width: 10px;
+            height: 10px;
+            background: #10b981;
+            border-radius: 50%;
+            display: inline-block;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { opacity: 0.6; transform: scale(0.9); }
+            50% { opacity: 1; transform: scale(1.1); }
+            100% { opacity: 0.6; transform: scale(0.9); }
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.75rem;
+            color: #4b5563;
+            border-top: 1px solid #1f2937;
+            padding-top: 20px;
+        }
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏛️ SophiaDeep</h1>
+        <p class="subtitle">Fondation pour l’Intelligence Hybride</p>
+        <p style="margin-top: 16px; color: #d1d5db; font-size: 1.05rem; line-height: 1.6;">
+            OS en cours de déploiement. Revenez dans quelques instants.
+        </p>
+        <div class="status-box">
+            <span class="status-item"><span class="dot-green"></span> Système opérationnel</span>
+            <span class="status-item">📡 API Sophia prête</span>
+            <span class="status-item">🔐 Sécurité active</span>
+        </div>
+        <div class="footer">
+            <p>Bureau de la Fondation · <a href="https://github.com/linemarguerite7-del" target="_blank">GitHub</a> · <a href="https://join.slack.com/t/sophiadeep/shared_invite/zt-47mu56991-iFhvyJHJYwv2xe3HIGBuMg" target="_blank">Slack</a></p>
+        </div>
+    </div>
+</body>
+</html>
