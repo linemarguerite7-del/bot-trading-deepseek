@@ -10,3 +10,11 @@ services:
     envVars:
       - key: PYTHONUNBUFFERED
         value: "1"
+      - key: LOG_LEVEL
+        value: INFO
+      - key: TRADING_ENABLED
+        value: "false"
+      - key: UPDATE_INTERVAL
+        value: "60"
+      - key: DEEPSEEK_API_KEY
+        sync: false  # Sync with dashboard secret
